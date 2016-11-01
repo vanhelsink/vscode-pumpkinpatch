@@ -1,0 +1,23 @@
+{
+    "name": "theme-pumpkinpatch",
+    "displayName": "Pumpkin Patch Theme",
+    "description": "A theme for Halloween.",
+    "version": "0.0.7",
+    "publisher": "vanhelsink",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pumpkin Patch",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PumpkinPatch.tmTheme"
+            }
+        ]
+    }
+}
